@@ -1,0 +1,506 @@
+   74  cd plugins/
+   75  ls
+   76  cd com.nomagic.magicdraw.jpython/
+   77  ls
+   78  cd jython2.5.1/
+   79  ls
+   80  cd Lib/
+   81  ls
+   82  rm -r MaddUtils/
+   83  git clone http://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/mjacksonutils.git
+   84  ls
+   85  cd ..
+   86  cd ..
+   87  ls
+   88  cd scripts/
+   89  ls
+   90  cd jpatterns/
+   91  git pull
+   92  ls
+   93  cd Documents/workspace/GSME
+   94  ls
+   95  cd .jpf
+   96  ls
+   97  cd site.properties 
+   98  open
+   99  vi
+  100  cat
+  101  cat site.properties 
+  102  ssh castor.jpl.nasa.gov
+  103  security find-generic-password -ga skype
+  104  clear
+  105  /Users/cgibson/Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-PackageK-build1163-20130718/bin/mduml ; exit;
+  106  /Users/cgibson/Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-PackageK-build1163-20130718/bin/mduml ; exit;
+  107  cd Downloads/
+  108  ls
+  109  cd log-35-Server.zip.cpgz 
+  110  gunzip log-35-Server.zip
+  111  unzip log-35-Server.zip
+  112  gunzip
+  113  gunzip -f log-35-Server.zip
+  114  up
+  115  unzip
+  116  unzip log-35-Server.zip
+  117  unzip -Z log-35-Server.zip
+  118  ls -l
+  119  tail -f log-35-Server.txt 
+  120  grep -e "^java.lang.AssertionError" log.text | sort | uniq | wc
+  121  grep -A 200 "state coverage" log-35-Server.txt > cov.text
+  122  grep -A 300 "java.lang.AssertionError: S_AcsDetumbleRWA and s_pIRUON OR s_bIRUON not active together"
+  123  grep -A 300 "S_SysSafeRCS and s_bSBANDTransmitterOFF not active together" log-35-Server.txt | more
+  124  grep -A 600 "S_SysSafeRCS and s_bSBANDTransmitterOFF not active together" log-35-Server.txt | more
+  125  hist
+  126  history
+  127  git intit CorrinaTest
+  128  cd Downloads/
+  129  ls
+  130  tail -f log-35-Server.txt 
+  131  grep -A 200 "state coverage" log-35-Server.txt > cov.text
+  132  grep -A 160 "java.lang.AssertionError: s_RSP_ATT_RATE_ERRORS_RWA and RSP_RWA1_FAILURE active together" log-35-Server.txt | more
+  133  grep -A 1600 "java.lang.AssertionError: s_RSP_ATT_RATE_ERRORS_RWA and RSP_RWA1_FAILURE active together" log-35-Server.txt | more
+  134  grep -A 1600 "java.lang.AssertionError: S_RSP_ATT_RATE_ERRORS_RWA and s_AlgorithmSaturation OR s_BearingFrictionExcessive not active together" log-35-Server.txt | more
+  135  pwd
+  136  emacs -nw
+  137  pwd
+  138  cd modelLibraries/
+  139  ls
+  140  cd JPL\ Institutional\ Technology\ Modules/
+  141  ls
+  142  emacs -nw
+  143  pwd
+  144  mkdir JI
+  145  cd JI
+  146  unzip ../JPL\ Institutional\ Technology\ Library.mdzip
+  147  emacs -nw
+  148  grep -i attached *
+  149  grep -il attached *
+  150  emacs -nw
+  151  pwd
+  152  cd ..
+  153  mkdir JE
+  154  cd JE
+  155  unzip ../JPL\ Electrical\ Interface\ Technology\ Library.mdzip
+  156  pwd
+  157  grep -l Mark *
+  158  emacs -nw
+  159  grep Kelvin *
+  160  fg
+  161  grep -il version
+  162  grep -il version *
+  163  pwd
+  164  grep -il Mark *
+  165  cd Desktop/
+  166  ls
+  167  cd CorrinaGibson/
+  168  ls
+  169  cd SSCAE-MD17.0.2SP3-PackageK-build1163-20130718/
+  170  pwd
+  171  ./bin/mduml DEVELOPER
+  172  java
+  173  java-version
+  174  java version
+  175  java -version
+  176  java -version
+  177  graphviz -version
+  178  graphviz
+  179  /Users/cgibson/Desktop/CorrinaGibson/zzSSCAE-MD17.0.2SP3-PackageK-build1163-20130718/bin/mduml ; exit;
+  180  java -version
+  181  java -version
+  182  export MD_INSTALL='/Applications/IMCEMagicDrawUML17sp2_20110822/'
+  183  cd $MD_INSTALL/plugins/com.nomagic.magicdraw.jpython/scripts
+  184  svn co https://sscae-srv1.jpl.nasa.gov/svn/smap_pilot/trunk/plugin SMAP
+  185  export MD_INSTALL='/Applications/IMCEMagicDrawUML17sp2_20110822/'
+  186  cd $MD_INSTALL/plugins/com.nomagic.magicdraw.jpython/scripts
+  187  cd $MD_INSTALL/plugins/com.nomagic.magicdraw.jpython/scripts
+  188  svn co https://sscae-srv1.jpl.nasa.gov/svn/smap_pilot/trunk/plugin SMAP
+  189  java -version
+  190  git clone <https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/jpatterns.git> <cd Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-02.1-PackageK-build5-20130807/plugins/com.nomagic.magicdraw.jpython/scripts/>
+  191  git clone <https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/jpatterns.git cd Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-02.1-PackageK-build5-20130807/plugins/com.nomagic.magicdraw.jpython/scripts/
+  192  git clone https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/jpatterns.git cd Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-02.1-PackageK-build5-20130807/plugins/com.nomagic.magicdraw.jpython/scripts/
+  193  cd Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-02.1-PackageK-build5-20130807/plugins/com.nomagic.magicdraw.jpython/scripts/jpatterns
+  194  git pull origin
+  195  git pull origin
+  196  java -version
+  197  java -version
+  198  java -version
+  199  java -version
+  200  which java
+  201  cd /Library/Java/JavaVirtualMachines/
+  202  ll
+  203  ls
+  204  file jdk1.7.0_40.jdk/
+  205  cd jdk1.7.0_40.jdk/
+  206  ls -Gha
+  207  cd Contents/
+  208  ls -Gl
+  209  cd ~/
+  210  ls -Gl
+  211  java -version
+  212  which java
+  213  cd /Library/Java/JavaVirtualMachines/
+  214  ls
+  215  java -version
+  216  which java
+  217  cd /Library/Java/JavaVirtualMachines/
+  218  ls
+  219  cd jdk1.7.0_25.jdk/Contents/Home/
+  220  ls
+  221  java -version
+  222  which java
+  223  java -version
+  224  which java
+  225  cd jdk1.7.0_25.jdk/Contents/Home/
+  226  ls
+  227  cd /Library/Java/JavaVirtualMachines/
+  228  ls
+  229  java -version
+  230  java -version
+  231  java -version
+  232  java -version
+  233  java -version
+  234  java -version
+  235  java -version
+  236  cd /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home 
+  237  ls
+  238  cd bin
+  239  java -version
+  240  ls
+  241  cd..
+  242  cd
+  243  defaults write com.apple.Finder AppleShowAllFiles YES
+  244  cd .magicdraw/
+  245  ls
+  246  cd 17.0.2/
+  247  ls
+  248  cd tmp/
+  249  ls
+  250  cd
+  251  cd /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+  252  ls
+  253  cd bin
+  254  ls
+  255  ./java -version
+  256  cd
+  257  cd Desktop/CorrinaGibson/SSCAE-MD17.0.2SP3-02.1-PackageK-build5-20130807/
+  258  ./bin/mduml DEVELOPER >& md.log &
+  259  tail -f md.log
+  260  get -version
+  261  git -version
+  262  git --version
+  263  git config --global user.name "Corrina Gibson"
+  264  git config --global user.email "Corrina.L.Gibson@jpl.nasa.gov"
+  265  cd
+  266  ls -a
+  267  cd Documents/workspace/
+  268  ls
+  269  cd GSME/
+  270  git init
+  271  git add --all
+  272  git commit -m "Initial Commit of GSME from Corrina' Computer"
+  273  git remote add origin https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/smap_fp_modelchecking.git
+  274  git push origin master
+  275  git remote add origin https://mbonnici@mbse.jpl.nasa.gov/stash/scm/mh/smap_fp_modelchecking.git
+  276  git push origin master
+  277  cd
+  278  cd Documents/workspace/
+  279  ls
+  280  git add --all
+  281  git rm -r rm .settings
+  282  ls -a
+  283  cd..
+  284  cd ..
+  285  ls
+  286  ls -a
+  287  cd workspace/ESO Sources
+  288  cd workspace
+  289  cd ESO\ Sources/
+  290  ls
+  291  ls -a
+  292  cd GSME
+  293  ls -a
+  294  cd .git/
+  295  ls
+  296  ls -a
+  297  cd branches/
+  298  ls -a
+  299  cd ..
+  300  cd ..
+  301  git rm -r rm .settings
+  302  git rm -r rm Documents
+  303  git rm -r rm .project 
+  304  cd ..
+  305  cd ..
+  306  git init
+  307  git add --all
+  308  git commit -m "Initial Commit of ESO Sources from Corrina's Computer"
+  309  git remote add origin https://mbonnici@mbse.jpl.nasa.gov/stash/scm/mh/smap_fp_modelchecking.git
+  310  git push origin master
+  311  git init
+  312  git push origin master
+  313  ls -a
+  314  rm -r .git
+  315  ls -a
+  316  rm -rf .git
+  317  ls -a
+  318  cd ESO\ Sources/GSME/
+  319  ls -a
+  320  rm -rf .git
+  321  ls -a
+  322  cd ..
+  323  cd ..
+  324  git init
+  325  git add --all
+  326  git commit -m "Corrina is adding the workspace package"
+  327  git remote add origin https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/smap_fp_modelchecking.git
+  328  git push origin master
+  329  rm -rf .git
+  330  cd ..
+  331  cd
+  332  cd Desktop/
+  333  ls -la
+  334  cd ESO\ Sources/
+  335  ls -la
+  336  cd GSME/
+  337  ls -la
+  338  rm -rf .svn
+  339  ls -la
+  340  git
+  341  git add --all
+  342  cd ..
+  343  git init
+  344  git add --all
+  345  git commit -m "Corrina adding ESO Sources"
+  346  git remote add origin https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/smap_fp_modelchecking.git
+  347  git push origin master
+  348  pwd
+  349  ls -la
+  350  cd GSME/
+  351  ls -la
+  352  vi .project
+  353  cat .project
+  354  cd 
+  355  cd git
+  356  ls
+  357  cd smap_fp_modelchecking/
+  358  git status
+  359  history
+  360  ls
+  361  rm -rf git
+  362  ls
+  363  git clone https://cgibson@mbse.jpl.nasa.gov/stash/scm/mh/smap_fp_modelchecking.git
+  364  git status
+  365  ls
+  366  git checkout -f HEAD
+  367  cd smap_fp_modelchecking/
+  368  git checkout -f HEAD
+  369  git status
+  370  cd ..
+  371  ls
+  372  cd smap_fp_modelchecking/
+  373  ls
+  374  cd
+  375  cd smap_fp_modelchecking/
+  376  cd GSME/
+  377  ls
+  378  git
+  379  cd smap_fp_modelchecking/
+  380  ls
+  381  git fetch
+  382  cd ..
+  383  git archive --format zip
+  384  cd ~/.ssh
+  385  ls id_*
+  386  ssh-keygen -t rsa -C "corrina.l.gibson@jpl.nasa.gov"
+  387  pbcopy < ~/.ssh/id_rsa.pub
+  388  cd ..
+  389  cd smap_fp_modelchecking/
+  390  git fetch
+  391  java -7
+  392  java -version
+  393  java -version
+  394  java -version
+  395  ls -la
+  396  cd .jpf/
+  397  ls -la
+  398  cd site.properties 
+  399  ls -la
+  400  vim site.properties 
+  401  ls -la
+  402  cd /Users/cgibson/Documents/workspace/ESO\ Sources/GSME 
+  403  pwd
+  404  svn status
+  405  pwd
+  406  ls -la
+  407  git status
+  408  echo $PATH
+  409  ls /usr/bin/sv*
+  410  ls /usr/bin/sv*
+  411  cd
+  412  pwd
+  413  ls
+  414  mkdir SMAP_FP_MC
+  415  svn
+  416  git config
+  417  git config --global
+  418  git config --global -l
+  419  git config http.postBuffer 524288000
+  420  git config http.postBuffer 524288000
+  421  git --global config http.postBuffer 524288000
+  422  git config --global http.postBuffer 524288000
+  423  git config --global -l
+  424  git --help
+  425  pwd
+  426  cd Documents/workspace/
+  427  ls
+  428  pwd
+  429  cd 
+  430  cd git/
+  431  ls
+  432  cd smap_fp_jpf/
+  433  git push --help
+  434  git push -v
+  435  git --version
+  436  git fsck
+  437  git push -v
+  438  cd git/smap_fp_jpf/
+  439  ls
+  440  git status
+  441  git push -v
+  442  pwd
+  443  cd
+  444  cd Documents/workspace/
+  445  ls
+  446  tar zcf ESO.tgz ESO
+  447  cd Documents/workspace/
+  448  ls -la
+  449  pwd
+  450  cd .jpf/
+  451  ls
+  452  emacs -nw site.properties 
+  453  cd /Users/cgibson/git/smap_fp_jpf/ESO/source/GSME/Tools/comodo/lib/
+  454  ls
+  455  jar 
+  456  jar tf org.eclipse.uml2.uml.resources_3.1.100.v201008191510.jar 
+  457  unzip -l org.eclipse.uml2.uml.resources_3.1.100.v201008191510.jar 
+  458  hg
+  459  cd
+  460  cd Desktop/
+  461  ls
+  462  unzip -l Mercurial-2.6.2-py2.7-macosx10.8.zip 
+  463  unzip -q Mercurial-2.6.2-py2.7-macosx10.8.zip 
+  464  hg
+  465  cd
+  466  pwd
+  467  mkdir babelfish
+  468  cd babelfish/
+  469   hg clone http://babelfish.arc.nasa.gov/hg/jpf/jpf-core
+  470  ls
+  471   hg clone http://babelfish.arc.nasa.gov/hg/jpf/jpf-aprop
+  472   hg clone http://babelfish.arc.nasa.gov/hg/jpf/jpf-statechart
+  473  java -version
+  474  ls -la
+  475  java -version
+  476  cd .jpf/
+  477  ls -la
+  478  cd site.properties
+  479  vim
+  480  java -version
+  481  cd .jpf
+  482  more site.properties
+  483  tail -f /Users/cgibson/Desktop/MAIN/CorrinaGibson/SSCAE-MD17.0.2SP3-02.1-PackageK-build5-20130807/md.log 
+  484  ll
+  485  ls -l
+  486  cd Movies/
+  487  ls -la
+  488  ls .localized 
+  489  cd /Applications/
+  490  ls 
+  491  cd iTunes.app/
+  492  ll
+  493  ls 
+  494  cd Contents/
+  495  ls
+  496  ls -la
+  497  -java version
+  498  java -version
+  499  cd Applications
+  500  ls -la
+  501  git clone https://github.com/git/git
+  502  git --version
+  503  git --version
+  504  git --version
+  505  git config —global user.name
+  506   git config --global user.name
+  507   git config --global user.email
+  508  cat ~/ .gitconfig
+  509  --global color.ui true
+  510   git config --global color.ui true
+  511  --global core.autocrlf true | input
+  512   git config --global core.autocrlf true | input
+  513  git config --global core.autocrlf true | input
+  514  git config --global core.autocrlf true
+  515  git config --global core.autocrlf true | input
+  516  git config --global core.autocrlf input
+  517  git config --global --list
+  518  git status
+  519  cd Desktop/
+  520  git status
+  521  git init web1
+  522  ls -a
+  523  git status
+  524  cd web1/
+  525  git status
+  526  git commit -m
+  527  git commit -m "Added home page"
+  528  git log
+  529  touch
+  530  git log
+  531  q
+  532  git add *.c
+  533  git init
+  534  git add *.c
+  535  git add README
+  536  git add index.css
+  537  git add file
+  538  git add .
+  539  cd .git/
+  540  git add .
+  541  git status
+  542  git log
+  543  ..cd
+  544  cd..
+  545  .cd
+  546  cd w
+  547  cd ..
+  548  git init --bare
+  549  git add
+  550  git add *
+  551  git commit -m "Corrin
+git commit -m "Corrina's commit"
+git log
+
+
+q
+
+  552  git status
+  553  git status -s
+  554  git add .html
+  555  git add contact.html
+  556  git status -s
+  557  git s
+  558  git log
+  559  git log --oneline --decorate --graph --all
+  560  git status
+  561  git s
+  562  got add contact.css
+  563  git add contact.css
+  564  git add contact
+  565  git remote add origin https://github.com/clgibson/web1.git
+  566  git push -u origin master
+  567  git status
+  568  git add .
+  569  git commit -m "My first commit"
+  570  history
+  571  git remote add origin https://github.com/clgibson/web1.git
+  572  git push -u origin master
+  573  history > history.txt
